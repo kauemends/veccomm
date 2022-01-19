@@ -84,14 +84,22 @@
 
 @media (max-width: 500px) {
     .services {
-        padding: 3rem 5rem;
+        padding: 3rem 3rem;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .services {
-        padding: 3rem 3rem;
+        padding: 3rem 2rem;
     }
+
+        .cardGrid h1 {
+            font-size: 1.2rem
+        }
+
+        .cardGrid p {
+            font-size: .7rem
+        }
 }
 
 @media (max-width: 350px) {
