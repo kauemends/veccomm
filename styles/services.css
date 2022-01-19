@@ -1,0 +1,123 @@
+:root {
+    --blue: #5464ff;
+    --black: #161616;
+    --grey: #9b9898;
+    --white: #ffffff;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5rem 7rem;
+
+    height: 100vh;
+}
+
+.cardGrid {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 1rem 3rem;
+
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+
+    width: 30%;
+    height: 90%;
+
+    border-radius: 1rem;
+}
+
+.cardGrid h1 {
+    margin-bottom: 20%;
+}
+
+.cardGrid img {
+    height: 5rem;
+    
+    margin-bottom: 20%;
+}
+
+@media (max-width: 900px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardGrid {
+        height: 30%;
+        width: 100%;
+    }
+
+    .cardGrid img {
+        opacity: 0;
+        position: absolute;
+        height: 1px;
+        margin-bottom: 0;
+    }
+
+    .cardGrid h1 {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    .cardGrid h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .cardGrid h1 {
+        font-size: 1.3rem;
+    }
+
+    .cardGrid p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .services {
+        padding: 3rem 5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .services {
+        padding: 3rem 3rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .cardGrid {
+        padding: 1rem 1.5rem;
+    }
+
+    .cardGrid h1 {
+        font-size: 1.1rem
+    }
+
+    .cardGrid p {
+        font-size: .8rem
+    }
+}
+
+@media (max-width: 320px) {
+    .cardGrid {
+        padding: 1rem 1rem;
+    }
+
+    .cardGrid h1 {
+        font-size: .9rem
+    }
+
+    .cardGrid p {
+        font-size: .7rem
+    }
+}

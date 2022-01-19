@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeCCom</title>
+
+    <link rel="shortcut icon" href="./assets/veccomm-favicon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/clients.css">
+
+    <script src="./scripts/aboutUsScroll.js"></script>
+    <script src="./scripts/clientsScroll.js"></script>
+    <script src="./scripts/servicesScroll.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/veccomm-logo.svg" alt="VeCComm Logo">
+        </div>
+
+        <div class="headerSections">
+            <p>Início</p>
+            <p onclick="aboutUsScroll()">Sobre nós</p>
+            <p onclick="servicesScroll()">Serviços</p>
+            <p onclick="clientsScroll()">Clientes</p>
+            <a href="https://www.instagram.com/veccomm/"><img src="./assets/linkedin-icon.svg" alt="Instagram"></a>
+            <a href="https://br.linkedin.com/in/veccomm"><img src="./assets/instagram-icon.svg" alt="LinkedIn"></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="home">
+            <div class="homeTexts">
+                <h1 class="primaryText">
+                    Somos a VeCComm
+                </h1>
+
+                <h3 class="secondaryText">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue fringilla massa, ut viverra lacus cursus eget lorem ipsum dolor sit amet, consectur fringila viverra.
+                </h3>
+
+                <button onclick="aboutUsScroll()" class="principalButton">Conhecer mais <img src="./assets/arrow-down.svg" alt="Seta"></button>
+            </div>
+
+            <div class="homeBanner">
+                <img src="./assets/home-banner.svg" alt="Banner">
+            </div>
+        </div>
+
+        <div class="aboutUs" id="aboutUs">
+            <img src="./assets/veccomm-logo.svg" alt="VeCComm" class="aboutUsLogo">
+
+            <p class="aboutUsText">
+                Agência de marketing digital, relações públicas e boutique de Comunicação criativa e inteligente para dar visibilidade ao seu negócio, produtos, serviços, marca, empresas ou profissionais.
+                Comunicação rápida e eficiente feita por time de especialistas com o máximo de dedicação, responsabilidade e profissionalismo. <br>
+                <span>Venha ser nosso parceiro.</span>
+            </p>
+        </div>
+
+        <div class="services" id="services">
+            <div class="cardGrid">
+                <h1>Marketing Digital</h1>
+
+                <img src="./assets/rocket.svg" alt="Foguete">
+
+                <p>Mídias Sociais e Redes sociais com relatórios e constante postagens de conteúdo interessante para obtenção de resultados.</p>
+            </div>
+            <div class="cardGrid">
+                <h1>Conteúdo</h1>
+
+                <img src="./assets/camera.svg" alt="Camera">
+
+                <p>Textos jornalísticos com informações e aprimoramento de SEO que auxiliam a localização das marcas no universo digital.</p>
+            </div>
+            <div class="cardGrid">
+                <h1>Assessoria de Imprensa</h1>
+
+                <img src="./assets/microphone.svg" alt="Microfone">
+
+                <p>Produção de campanhas de divulgação e Public Relations com os formadores de opinião e digital influencers para maior visibilidade da marca.</p>
+            </div>
+        </div>
+
+        <div class="clients" id="clients">
+            <div class="clientsCards">
+                <img src="./assets/edson-pavao.png" alt="" class="clientsPhotos">
+                <p class="clientName">Edson Pavão</p>
+            </div>
+            <div class="clientsCards">
+                <img src="./assets/renata-pavao.png" alt="" class="clientsPhotos">
+                <p class="clientName">Renata Pavão</p>
+            </div>
+            <div class="clientsCards">
+                <img src="./assets/mpc.png" alt="" class="clientsPhotos">
+                <p class="clientName">Mon Petit Chéri</p>
+            </div>
+            <div class="clientsCards">
+                <img src="./assets/pizzadobairro.png" alt="" class="clientsPhotos">
+                <p class="clientName">Pizza do Bairro</p>
+            </div>
+            <div class="clientsCards">
+                <img src="./assets/aec.png" alt="" class="clientsPhotos">
+                <p class="clientName">Amor & Classe</p>
+            </div>
+            <div class="clientsCards">
+                <img src="./assets/cdate.png" alt="" class="clientsPhotos">
+                <p class="clientName">C-Date</p>
+            </div>
+            <div class="clientsCards">
+                <img src="./assets/s50.png" alt="" class="clientsPhotos">
+                <p class="clientName">Solteiros50</p>
+            </div>
+            <div class="clientsCards">
+                <img src="" alt="" class="clientsPhotos">
+            </div>    
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

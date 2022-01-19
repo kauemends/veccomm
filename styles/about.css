@@ -1,0 +1,91 @@
+:root {
+    --blue: #5464ff;
+    --black: #161616;
+    --grey: #9b9898;
+    --white: #ffffff;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--blue);
+
+    margin-top: -.4rem;
+
+    height: 100vh;
+}
+
+.aboutUsLogo {
+    padding: 5rem 1rem;
+    background: var(--white);
+    border-radius: 50%;
+
+    margin-top: 2.8rem;
+
+    width: 15rem;
+
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+
+.aboutUsText {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 100;
+
+    margin-top: 4rem;
+
+    width: 70%;
+
+    text-align: center;
+
+    line-height: 2.2rem;
+}
+
+.aboutUsText span {
+    font-weight: 500;
+}
+
+@media (max-width: 700px) {
+    .aboutUsText {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+
+        margin-top: -.8rem;
+    }
+
+    .aboutUsLogo {
+        opacity: 0;
+        position: absolute;
+        height: 0px;
+    }
+
+    .aboutUs {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutUsText {
+        font-size: 1rem
+    }
+}
+
+@media (max-width: 325px) {
+    .aboutUsText {
+        font-size: .6rem
+    }
+
+    .aboutUs {
+        height: 80vh;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .aboutUsText {
+        font-size: 1rem;
+    }
+}
