@@ -53,6 +53,16 @@
     margin-top: 10%;
 }
 
+@media (max-width: 1025px) {
+    .clients img {
+        height: 10rem;
+    }
+
+    .clients {
+        height: 60vh;
+    }
+}
+
 @media (max-width: 1000px) {
     .clients img {
         height: 10rem;

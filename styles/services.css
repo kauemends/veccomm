@@ -43,7 +43,7 @@
     margin-bottom: 20%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
     .services {
         display: flex;
         flex-direction: column;
@@ -63,6 +63,22 @@
 
     .cardGrid h1 {
         margin-bottom: 5%;
+
+        font-size: 3rem;
+    }
+
+    .cardGrid p {
+        font-size: 1.7rem
+    }
+}
+
+@media (max-width: 1000px) {
+    .cardGrid h1 {
+        font-size: 1.8rem;
+    }
+
+    .cardGrid p {
+        font-size: 1.3rem;
     }
 }
 

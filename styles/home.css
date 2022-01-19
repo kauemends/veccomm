@@ -69,7 +69,7 @@
 
 @media (max-width: 1065px) {
     .home {
-        height: 100vh;
+        height: 70vh;
     }
 
     .homeBanner {
@@ -79,10 +79,43 @@
         margin-left: -10rem;
     }
 
+    .primaryText {
+        font-size: 8rem
+    }
+
     .secondaryText {
         width: 75%;
 
         padding: 3rem 0;
+
+        font-size: 1.8rem;
+    }
+
+    .principalButton {
+        width: 20rem;
+        height: 5rem;
+
+        font-size: 1.4rem;
+
+        padding: 1rem 3.2rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .primaryText {
+        font-size: 5rem;
+    }
+
+    .secondaryText {
+        font-size: 1rem;
+    }
+
+    .principalButton {
+        width: 12rem;
+        height: 3rem;
+
+        padding: 0 1.75rem;
+        font-size: .86rem;
     }
 }
 
