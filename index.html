@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/services.css">
     <link rel="stylesheet" href="./styles/clients.css">
+    <link rel="stylesheet" href="./styles/contact.css">
 
     <script src="./scripts/aboutUsScroll.js"></script>
     <script src="./scripts/clientsScroll.js"></script>
@@ -121,6 +122,28 @@
             <div class="clientsCards">
                 <img src="" alt="" class="clientsPhotos">
             </div>    
+        </div>
+
+        <div class="formContact">
+            <h1>Fale conosco</h1>
+
+            <form action="https://formsubmit.co/veccomm@gmail.com" method="POST" id="contactForm">
+                <p class="p-style">Nome</p>
+                <input type="text" name="name" id="name" class="form-style" required>
+
+                <p class="p-style">Telefone</p>
+                <input type="tel" name="number" id="number" class="form-style" required>
+
+                <p class="p-style">Email</p>
+                <input type="email" name="email" id="email" class="form-style" required>
+
+                <p class="p-style">Mensagem</p>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+
+                <input type="hidden" name="_next" value="https://veccomm.netlify.app/thankYou">
+
+                <button class="submit-form" type="submit">Enviar</button>
+            </form>
         </div>
     </main>
 

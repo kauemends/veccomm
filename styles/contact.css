@@ -1,0 +1,125 @@
+:root {
+    --blue: #5464ff;
+    --black: #161616;
+    --grey: #9b9898;
+    --white: #ffffff;
+}
+
+.formContact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15rem;
+}
+
+.formContact h1 {
+    font-size: 2.5rem;
+    color: var(--black);
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#contactForm {
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.form-style {
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 100%;
+
+    font-size: 1.5rem;
+    padding: 1rem;
+
+    border: 2px solid #cacaca;
+    background-color: #e2e2e2;
+
+    margin-bottom: 2rem;
+
+    box-shadow: 0 0px 15px 0 rgba(21, 21, 21, 0.103);
+}
+
+.p-style {
+    font-size: 1rem;
+
+    margin-bottom: .6rem;
+    font-weight: 500;
+    margin-left: 2rem;
+
+    color: var(--black);
+}
+
+#message {
+    resize: none;
+
+    border-radius: 1.5rem;
+    width: 100%;
+
+    font-size: .9rem;
+    padding: 1rem;
+
+    border: 2px solid #cacaca;
+    background-color: #e2e2e2;
+
+    box-shadow: 0 0px 15px 0 rgba(21, 21, 21, 0.103);
+
+}
+
+.submit-form {
+    background: var(--blue);
+    color: white;
+
+    border-radius: 0.6rem;
+    font-size: .9rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: 0.1rem solid var(--blue);
+    transition: .2s ease-in;
+
+    padding: 1.5rem 4.5rem;
+
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+button:hover {
+    background: transparent;
+    color: var(--blue);
+    border: 0.1rem solid var(--blue);
+}
+
+@media (max-width: 1000px) {
+    .formContact {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .formContact {
+        padding: 0 7rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .formContact {
+        padding: 0 4rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .formContact h1 {
+        font-size: 1.8rem;
+
+        margin-bottom: 3rem;
+    }
+
+    .p-style {
+        font-size: .85rem;
+    }
+}
